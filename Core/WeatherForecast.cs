@@ -1,4 +1,4 @@
-namespace technical_assessment;
+namespace technical_assessment.Core;
 
 public class WeatherForecast
 {
