@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "c82e3e0d-7aaf-45d7-8763-288ee8c2f3ca",
+		"name": "Technical_Assessment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16348096"
+	},
+	"item": [
+		{
+			"name": "GetCellPhone",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7009/cellphone/get",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7009",
+					"path": [
+						"cellphone",
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMobileOperator",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7009/mobileoperator/get",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7009",
+					"path": [
+						"mobileoperator",
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SetCellPhone",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Brand\": \"Samsung\",\r\n    \"Model\": \"M52\",\r\n    \"MobileNetworkSupport\": \"5G\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7009/cellphone/set",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7009",
+					"path": [
+						"cellphone",
+						"set"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SetMobileOperator",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\": \"TIM\",\r\n    \"Country\": \"Brazil\",\r\n    \"MobileNetworkSupport\": \"2G,3G,4G\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7009/mobileoperator/set",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7009",
+					"path": [
+						"mobileoperator",
+						"set"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -18,5 +18,11 @@ This repository is part of Bwtech's technical assessment step in our recruting p
 
 - Run `dotnet run` command
 
+## Postman Requests
+
+Import `Technical_Assessment.postman_collection.json` file inside `Postman Requests` folder into a PostMan collection for easy access to request examples.  
+
+
+
 
 
