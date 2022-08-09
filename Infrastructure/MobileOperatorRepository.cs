@@ -55,9 +55,9 @@ namespace technical_assessment.Infrastructure
                     INSERT INTO MobileOperator (Name, Country, MobileNetworkSupport)
                     VALUES
                     (
-                        '{mobileOperatorInput.Name}',
-                        '{mobileOperatorInput.Country}',
-                        '{mobileOperatorInput.MobileNetworkSupport}'
+                        {mobileOperatorInput.Name},
+                        {mobileOperatorInput.Country},
+                        {mobileOperatorInput.MobileNetworkSupport}
                     )
                 ";
 
