@@ -10,7 +10,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddSingleton<IDatabaseRepository, DatabaseRepository>();
+builder.Services.AddSingleton<ICellphoneRepository, CellphoneRepository>();
+builder.Services.AddSingleton<IMobileOperatorRepository, MobileOperatorRepository>();
 
 var app = builder.Build();
 
